@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body
+{
+    background:linear-gradient(135deg,#405171,#4e085f)
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: max-content;
+    gap: 20px;
+    border: 6px solid;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 96.8vh;
+    gap: 125px;
+
+}
+
+h1,p
+{
+    text-align: center;
+}
+h1 {
+    background: -webkit-linear-gradient(#253853, #237ebb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 8px;
+   
+}
+
+.noborder
+{
+    border:none;
+}
+
+#add:active
+{
+box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+label,input
+{
+    display: block;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+/* for numeric input arrow buttons */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+table,td,tr,th
+{
+    border-spacing: 10px;
+    padding: 4px;
+
+}
+
+tr
+{
+    
+    outline: thin solid
+}
+
+
+.table
+{
+    height: 250px;
+    overflow-y: auto;
+    border-left: 10px solid;
+}
+
+
+.gradient {
+    background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);
+    height: 2px;
+    
+    
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gradient"></div>
+
+        <div class="container">
+            <div class="Header">
+                <h1>Student Registration System</h1>
+                <p class="Description">Basic Student Data Retrieval System</p>
+            </div>
+
+            <main>
+                <div class="form">
+                    <form action="">
+                        <label for="Student_Name">Student Name</label>
+                        <input type="text" name="Student_Name" id="Student_Name" onkeyup="lettersOnly(this)" required>
+                        <label for="Student_id">Student_id</label>
+                        <input type="number" name="Student_id" id="Student_id" min="1" required>
+                        <label for="email">Email-Id</label>
+                        <input type="email" name="Email-Id" id="Email-Id" required>
+                        <label for="Contact">Mobile Number</label>
+                        <input type="number" name="mobile" id="mobile" inputmode="tel" min="0" required>
+
+                        <center><button  type="submit" class="button" id="add">Add Entry</button></center>
+                    </form>
+                    
+                </div>
+                <div class="table" >
+                    
+                    <table >
+                    
+                    
+                        <tr>
+                            <td>Student_Name</td>
+                            <td>Student_Id</td>
+                            <td>Email-Id</td>
+                            <td>Mobile_Number</td>
+                        </tr>
+                    
+                    
+                    
+                    
+                    
+                    </table>
+                    <table id="table">
+                        
+                        
+                            
+                        
+
+                <tr>
+                    <td>Name</td>
+                    <td>Id</td>
+                    <td>Email-Id</td>
+                    <td>Mobile</td>
+                </tr>
+                        
+                        
+                    </table>
+                </div>
+            </main>
+
+
+
+        </div>
+<div class="gradient"></div>
+<footer>
+    <p>Made By Prateek &copy; 2024 Prateek Saxena.All Right reserved</p>
+</footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
