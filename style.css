@@ -7,6 +7,7 @@
 
 }
 
+/* Styling For the main container */
 body
 {
     background:linear-gradient(135deg,#405171,#4e085f)
@@ -32,7 +33,9 @@ main {
     gap: 125px;
 
 }
+/* ends */
 
+/* Styling for the Auxillary elements */
 h1,p
 {
     text-align: center;
@@ -96,6 +99,7 @@ tr
     border-left: 10px solid;
 }
 
+/* ends */
 
 .gradient {
     background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);

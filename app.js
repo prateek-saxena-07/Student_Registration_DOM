@@ -7,23 +7,8 @@ const searchForm = document.querySelector('form');
 
 
 
-// function add()
-// {
-//    <button  onclick="add()" type="button">Submit</button>  ==>changes in Html to use this function 
-//     var row = table.insertRow(table.rows.length);
 
-//     console.log(table.rows.length);
-//     var cell1 = row.insertCell(0);
-//     var cell2 = row.insertCell(1);
-//     var cell3 = row.insertCell(2);
-//     var cell4 = row.insertCell(3);
-//     cell1.innerHTML=iB1.value;
-//     cell2.innerHTML=iB2.value;
-//     cell3.innerHTML=iB3.value;
-//     cell4.innerHTML=iB4.value;
-// }
-
-
+// adds rows to the table 
 searchForm.addEventListener('submit', (e) => {
     
 
@@ -126,6 +111,8 @@ function lettersOnly(input)
 }
 
 
+
+// using local storage for persistent memory
 function saveData()
 {
     localStorage.setItem("d", table.innerHTML);
@@ -136,4 +123,4 @@ function showData()
     table.innerHTML = localStorage.getItem("d");
 
 }
-  showData();
+showData();
